@@ -22,7 +22,6 @@ router.get('/', function(req, res, next) {
    email: req.query.email,
    tel: req.query.tel,
    message: req.query.text
- //  gender: req.query.gender
  };
  console.log(response);
  res.end(JSON.stringify(response));
